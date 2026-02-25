@@ -9,7 +9,6 @@ def round_num(input):
    return '{:.2f}'.format(input)
 
 #print('Temperature', round_num(sensor.temperature), 'C')
-#print('Humidity', round_num(sensor.relative_humidity), '%')
 
 time.sleep(2)
 
