@@ -15,6 +15,8 @@ time.sleep(2)
 
 print(sensor.temperature)
 
+print(sensor.relative_humidity)
+
 now = datetime.datetime.now()
 
 print(now)
